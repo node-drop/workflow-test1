@@ -1,0 +1,16 @@
+[
+  {
+    "id": "node-1766523293936-node-1766523286544-1766523293937",
+    "sourceNodeId": "node-1766523293936",
+    "sourceOutput": "main",
+    "targetNodeId": "node-1766523286544",
+    "targetInput": "main"
+  },
+  {
+    "id": "node-1766523286544-node-1766523296727-1766523296728",
+    "sourceNodeId": "node-1766523286544",
+    "sourceOutput": "main",
+    "targetNodeId": "node-1766523296727",
+    "targetInput": "main"
+  }
+]

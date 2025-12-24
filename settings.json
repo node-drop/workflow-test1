@@ -1,0 +1,7 @@
+{
+  "timezone": "UTC",
+  "saveExecutionProgress": true,
+  "saveDataErrorExecution": "all",
+  "saveDataSuccessExecution": "all",
+  "callerPolicy": "workflowsFromSameOwner"
+}

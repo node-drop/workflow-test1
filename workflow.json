@@ -1,0 +1,8 @@
+{
+  "version": "1.0.0",
+  "id": "c19b47b54629ff4857a8c879fe77adf4d",
+  "name": "My Workflow",
+  "description": "This workflow help to trigger airtable",
+  "category": "automation",
+  "tags": []
+}
