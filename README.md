@@ -17,16 +17,19 @@ This workflow help to trigger airtable
 
 ## Files
 
-- `workflow.json` - Workflow metadata and configuration
-- `nodes.json` - Node definitions and parameters
-- `connections.json` - Node connections and data flow
-- `triggers.json` - Workflow triggers (webhooks, schedules, etc.)
-- `settings.json` - Workflow settings and preferences
+- `workflow.json` - Complete workflow definition (nodes, connections, triggers, settings, and metadata)
 
 ## Version
 
 This workflow was exported using version 1.0.0 of the serialization format.
 
+## Import/Export Compatibility
+
+This workflow uses the same format as the import/export feature, making it easy to:
+- Import workflows directly from Git repositories
+- Export workflows and commit them to Git
+- Share workflows across teams using Git
+
 ---
 
-*Last updated: 2025-12-24T16:04:06.117Z*
+*Last updated: 2025-12-24T16:32:12.843Z*

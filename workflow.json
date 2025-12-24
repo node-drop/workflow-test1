@@ -1,8 +1,101 @@
 {
   "version": "1.0.0",
-  "id": "c19b47b54629ff4857a8c879fe77adf4d",
-  "name": "Airtable Trigger Workflow",
-  "description": "This workflow help to trigger airtable",
-  "category": "automation",
-  "tags": []
+  "exportedAt": "2025-12-24T16:32:12.843Z",
+  "exportedBy": "git-service",
+  "workflow": {
+    "title": "Airtable Trigger Workflow",
+    "name": "Airtable Trigger Workflow",
+    "description": "This workflow help to trigger airtable",
+    "category": "automation",
+    "tags": [],
+    "nodes": [
+      {
+        "id": "node-1766523286544",
+        "type": "ai-agent",
+        "name": "AI Agent",
+        "parameters": {
+          "name": "AI Agent",
+          "systemPrompt": "You are a helpful AI assistant.",
+          "userMessage": "",
+          "maxIterations": 10,
+          "options": {}
+        },
+        "position": {
+          "x": 358.7728542200654,
+          "y": 480.0993995879551
+        },
+        "credentials": [],
+        "disabled": false
+      },
+      {
+        "id": "node-1766523293936",
+        "type": "airtable-trigger",
+        "name": "Airtable Trigger",
+        "parameters": {
+          "name": "Airtable Trigger",
+          "triggerType": "polling",
+          "authentication": "",
+          "baseId": "",
+          "tableName": "",
+          "pollingInterval": 60,
+          "options": {}
+        },
+        "position": {
+          "x": 90.78315196562173,
+          "y": 511.1702693129944
+        },
+        "credentials": [],
+        "disabled": false
+      },
+      {
+        "id": "node-1766523296727",
+        "type": "anthropic",
+        "name": "Anthropic (Claude)",
+        "parameters": {
+          "model": "claude-3-5-sonnet-20241022",
+          "temperature": 0.7,
+          "maxTokens": 1024,
+          "enableMemory": false,
+          "sessionId": "default",
+          "authentication": "",
+          "systemPrompt": "You are a helpful AI assistant.",
+          "userMessage": ""
+        },
+        "position": {
+          "x": 677.6667278985366,
+          "y": 496.0071641287858
+        },
+        "credentials": [],
+        "disabled": false
+      }
+    ],
+    "connections": [
+      {
+        "id": "node-1766523293936-node-1766523286544-1766523293937",
+        "sourceNodeId": "node-1766523293936",
+        "sourceOutput": "main",
+        "targetNodeId": "node-1766523286544",
+        "targetInput": "main"
+      },
+      {
+        "id": "node-1766523286544-node-1766523296727-1766523296728",
+        "sourceNodeId": "node-1766523286544",
+        "sourceOutput": "main",
+        "targetNodeId": "node-1766523296727",
+        "targetInput": "main"
+      }
+    ],
+    "triggers": [],
+    "settings": {
+      "timezone": "UTC",
+      "saveExecutionProgress": true,
+      "saveDataErrorExecution": "all",
+      "saveDataSuccessExecution": "all",
+      "callerPolicy": "workflowsFromSameOwner"
+    },
+    "metadata": {
+      "workflowId": "c19b47b54629ff4857a8c879fe77adf4d"
+    }
+  },
+  "checksum": "5ca26ca"
 }
