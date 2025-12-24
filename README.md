@@ -1,4 +1,4 @@
-# My Workflow
+# Airtable Trigger Workflow
 
 This workflow help to trigger airtable
 
@@ -29,4 +29,4 @@ This workflow was exported using version 1.0.0 of the serialization format.
 
 ---
 
-*Last updated: 2025-12-24T15:57:54.850Z*
+*Last updated: 2025-12-24T16:01:36.082Z*
